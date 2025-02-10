@@ -9,7 +9,7 @@
     "githubURL": "BBDD-ETSIT/nosql_practica4_bbdd",
     "serverUrl": "https://aat.dit.upm.es/",
     "courseId": "2110",
-    "assignmentId": "442"
+    "assignmentId": "8468"
   },
   "scripts": {
     "start": "node rest_server.js",
