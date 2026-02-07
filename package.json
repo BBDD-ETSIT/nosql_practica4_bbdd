@@ -19,7 +19,7 @@
     "test:old": "nodemon --exec 'mocha -R min'"
   },
   "dependencies": {
-    "autocorector": "^3.1.4",
+    "autocorector": "^4.1.0",
     "body-parser": "~1.12.4",
     "ejs": "^3.0.1",
     "express": "~4.13.1",
