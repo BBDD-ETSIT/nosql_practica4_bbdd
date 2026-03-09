@@ -54,31 +54,31 @@ Abra un terminal en su ordenador y siga los siguientes pasos.
 El proyecto debe clonarse en el ordenador desde el que se está trabajando con:
 
 ```
-$ git clone https://github.com/BBDD-ETSIT/nosql_practica4_bbdd
+git clone https://github.com/BBDD-ETSIT/nosql_practica4_bbdd
 ```
 
 y entrar en el directorio de trabajo
 
 ```
-$ cd nosql_practica4_bbdd
+cd nosql_practica4_bbdd
 ```
 
 Una vez dentro de la carpeta, se instalan las dependencias con:
 
 ```
-$ npm install
+npm install
 ```
 
 Ejecutamos los seeders para añadir pacientes por defecto a la base de datos de mongo con:
 
 ```
-$ npm run seed
+npm run seed
 ```
 
 Por último podemos arrancar la práctica con:
 
 ```
-$ npm start
+npm start
 ```
 
 Abra un navegador y vaya a la url "http://localhost:8001" para ver la aplicación de gestión de pacientes.
@@ -231,7 +231,7 @@ Para ayudar al desarrollo, se provee una herramienta de autocorrección que prue
 La herramienta de autocorrección preguntará por el correo del alumno y el token de Moodle. En el enlace [https://www.npmjs.com/package/autocorector](https://www.npmjs.com/package/autocorector) se proveen instrucciones para encontrar dicho token.
 
 ```
-$ npx autocorector
+npx autocorector
 ```
 
 Se puede pasar la herramienta autocorector tantas veces como se desee sin ninguna repercusión en la calificación.
@@ -240,7 +240,7 @@ Se puede pasar la herramienta autocorector tantas veces como se desee sin ningun
 
 Una vez satisfecho con su calificación, el alumno puede subir su entrega a Moodle con el siguiente comando:
 ```
-$ npx autocorector --upload
+npx autocorector --upload
 ```
 
 El alumno podrá subir al Moodle la entrega tantas veces como desee pero se quedará registrada solo la última subida.
